@@ -9,6 +9,6 @@ console.log('Gezochte kleur:', zoekKleur);
 
 // TODO: Check of de kleur in de array staat
 const gevonden =
-  /* jouw code hier */
+  kleuren.includes(zoekKleur);
 
   console.log('Kleur gevonden:', gevonden);
