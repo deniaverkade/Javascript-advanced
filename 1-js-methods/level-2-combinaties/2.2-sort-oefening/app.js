@@ -8,13 +8,13 @@ console.log('Originele scores:', scores);
 console.log('Originele steden:', steden);
 
 // TODO: Sorteer scores van laag naar hoog
-const gesorteerdeScores = scores.sort((a,b)=> a.score - b.score);
+const gesorteerdeScores = scores.sort((a,b)=> a - b);
 console.log('Scores laag naar hoog:', gesorteerdeScores);
 
 // TODO: Sorteer scores van hoog naar laag  
-const scoresHoogNaarLaag = scores.sort((a,b)=> b.score - a.score);
+const scoresHoogNaarLaag = scores.sort((a,b)=> b - a);
 console.log('Scores hoog naar laag:', scoresHoogNaarLaag);
 
 // TODO: Sorteer steden alfabetisch
-const gesorteerdeSteden = /* jouw code hier */
+const gesorteerdeSteden = steden.sort();
 console.log('Steden alfabetisch:', gesorteerdeSteden);
