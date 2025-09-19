@@ -30,14 +30,14 @@ function slaOpNaam() {
 function toonWelkom() {
     // TODO: Haal naam op uit localStorage
     const opgeslagenNaam = localStorage.getItem("gebruikersnaam");
-    console.log(opgeslagenNaam);
+    console.log("welkomtoon test "+opgeslagenNaam);
     const welkomElement = document.getElementById('welkom-bericht');
    
     // TODO: Toon juiste bericht
-    if (!opgeslagenNaam==="") {
-        welkomElement.innerHTML = `Welkom, ${naam}!`;
+    if (opgeslagenNaam!="") {
+        welkomElement.textContent = `Welkom, ${opgeslagenNaam}!`;
     } else {
-        welkomElement.innerHTML = 'Geen naam opgeslagen.';
+        welkomElement.textContent = 'Geen naam opgeslagen.';
     }
 }
 
@@ -49,4 +49,4 @@ function wisNaam() {
 }
 
 // TODO: Roep toonWelkom() aan bij pagina laden
-onload.toonWelkom();
+addEventListener("onload", toonWelkom());
