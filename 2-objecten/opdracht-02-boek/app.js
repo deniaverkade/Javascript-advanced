@@ -1,5 +1,13 @@
 // Maak een boek object waar je allemaal gegevens van een boek in kunt opslaan en tonen op het scherm.
+const book = {
+    title:"Encyclopaedia Eorzea the World of Final Fantasy XIV Volume I",
+    author:"Square Enix",
+    publisher:"Square Enix Books",
+    releaseyear:2022,
+    amountsold:0,
+    price:"€30,00",
 
+};
 // Het object moet de volgende properties bevatten:
 
 //     Titel: de titel van het boek (string)

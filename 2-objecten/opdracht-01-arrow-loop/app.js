@@ -13,3 +13,6 @@ addMarvel("Black Widow");
 for (let film of marvels){
     console.log(film);
 }
+
+//ik heb de console van VSC zelf moeten gebruiken omdat de console van FireFox- 
+//niks liet zien. ik weet niet of dit hetzelfde is op andere browsers of computers
