@@ -1,7 +1,14 @@
 // Stap 1
 
 // Maak een persoon object waar je allemaal eigenschappen van een persoon in kunt opslaan en tonen op het scherm.
-
+const persoon = {
+    name: "",
+    age: "",
+    dateOfBirth: "",
+    sex: "",
+    alive:"",
+    hobbies: ["","","",""]
+}
 // Het object moet de volgende properties bevatten:
 
 //     Naam: de naam van de persoon (string)
