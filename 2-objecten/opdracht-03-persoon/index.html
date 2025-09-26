@@ -4,10 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Opdracht 3 - persoon</title>
-  <script src="app.js"></script>
+  
 </head>
 <body>
+  <div class="output">
+  </div>
+
+  <div class="infochange">
+    
+      <form id="nameChange" >
+        <input type="text" id="newName">
+        <input type="submit" value="Wijzigen">
+      </form>
+
+      <form id="lifeStatus" onsubmit="changeLife()">
+  <input type="radio" id="aliveYes" name="aliveOrDead" value="Yes">
+  <label for="aliveYes">Ja</label><br>
+  <input type="radio" id="aliveNo" name="aliveOrDead" value="No">
+  <label for="aliveNo">Nee</label><br>
+  <input type="submit" value="Wijzigen">
+  </form>
+
+   <form id="hobbyChange" >
+        <input type="text" id="newHobby">
+        <input type="submit" value="Toevoegen">
+      </form>
+    
+  </div>
   
-  
+  <script src="app.js"></script>
 </body>
 </html>

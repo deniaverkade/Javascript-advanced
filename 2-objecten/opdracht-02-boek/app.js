@@ -20,15 +20,15 @@ const book = {
 // Toon elke property op het scherm door het in een p-tag te plaatsen. Hiervoor maak je in je HTML een div-tag aan met de class 'output'.
 const output = document.querySelector('.output');
 const message =`
-<p>Titel: ${book.title} \n
-Auteur: ${book.author} \n
-Uitgeverij: ${book.publisher} \n
-Jaar van uitkomst: ${book.releaseyear} \n
-Aantal verkocht: ${book.amountsold}  \n
+<p>Titel: ${book.title} <br>
+Auteur: ${book.author} <br>
+Uitgeverij: ${book.publisher} <br>
+Jaar van uitkomst: ${book.releaseyear} <br>
+Aantal verkocht: ${book.amountsold}  <br>
 Prijs: ${book.price}</p>
 `;
 
-//verschillende console tests, niks wilt loggen dus ik ga verder met andere opdrachten en ik kijk later wat er mis is
+
 function addMessage(a) {
     output.innerHTML=a
 }
