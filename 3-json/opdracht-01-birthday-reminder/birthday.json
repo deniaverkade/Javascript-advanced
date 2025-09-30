@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Jena Michael",
+        "age" : "32",
+        "dateOfBirth": "03-11-1993",
+        "picture,": "C:/Users/diois/Documents/js-lj2-backupJ/avascript-advanced/3-json/opdracht-01-birthday-reminder/img/per1.jpg"
+    },
+
+    {
+        "name": "Colin Dave",
+        "age" : "33",
+        "dateOfBirth": "26-08-1992",
+        "picture,": "C:/Users/diois/Documents/js-lj2-backupJ/avascript-advanced/3-json/opdracht-01-birthday-reminder/img/per2.jpg"
+    },
+
+    {
+        "name": "Lauren Parsons",
+        "age" : "52",
+        "dateOfBirth": "12-02-1973",
+        "picture,": "C:/Users/diois/Documents/js-lj2-backupJ/avascript-advanced/3-json/opdracht-01-birthday-reminder/img/per3.jpg"
+    },
+
+    {
+        "name": "Jo Schorel",
+        "age" : "43",
+        "dateOfBirth": "09-05-1982",
+        "picture,": "C:/Users/diois/Documents/js-lj2-backupJ/avascript-advanced/3-json/opdracht-01-birthday-reminder/img/per4.jpg"
+    },
+
+    {
+        "name": "Fred Klein",
+        "age" : "29",
+        "dateOfBirth": "10-06-1996",
+        "picture,": "C:/Users/diois/Documents/js-lj2-backupJ/avascript-advanced/3-json/opdracht-01-birthday-reminder/img/per5.jpg"
+    },
+
+    {
+        "name": "Clarissa Van Donk",
+        "age" : "23",
+        "dateOfBirth": "24-01-2002",
+        "picture,": "C:/Users/diois/Documents/js-lj2-backupJ/avascript-advanced/3-json/opdracht-01-birthday-reminder/img/per6.jpg"
+    }
+]
