@@ -20,3 +20,9 @@ fetch("./birthday.json")
             }
         }
     })
+
+    function clearList() {
+        out = "";
+        output.innerHTML = out;
+    }
+

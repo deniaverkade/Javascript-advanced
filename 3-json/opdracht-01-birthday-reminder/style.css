@@ -57,3 +57,7 @@ p {
     margin-left: 18%;
     margin-top: -1%;
 }
+
+button:hover {
+    background-color: rgb(198, 45, 212);
+}
