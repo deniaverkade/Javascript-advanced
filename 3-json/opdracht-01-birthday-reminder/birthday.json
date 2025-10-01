@@ -2,42 +2,42 @@
     {
         "name": "Jena Michael",
         "age" : "32",
-        "dateOfBirth": "03-11-1993",
+        "dateOfBirth": "03/11/1993",
         "picture,": "./img/per1.jpg"
     },
 
     {
         "name": "Colin Dave",
         "age" : "33",
-        "dateOfBirth": "26-08-1992",
+        "dateOfBirth": "03/11/1992",
         "picture,": "./img/per2.jpg"
     },
 
     {
         "name": "Lauren Parsons",
         "age" : "52",
-        "dateOfBirth": "12-02-1973",
+        "dateOfBirth": "12/02/1973",
         "picture,": "./img/per3.jpg"
     },
 
     {
         "name": "Jo Schorel",
         "age" : "43",
-        "dateOfBirth": "09-05-1982",
+        "dateOfBirth": "09/05/1982",
         "picture,": "./img/per4.jpg"
     },
 
     {
         "name": "Fred Klein",
         "age" : "29",
-        "dateOfBirth": "10-06-1996",
+        "dateOfBirth": "10/06/1996",
         "picture,": "./img/per5.jpg"
     },
 
     {
         "name": "Clarissa Van Donk",
         "age" : "23",
-        "dateOfBirth": "24-01-2002",
+        "dateOfBirth": "24/01/2002",
         "picture,": "./img/per6.jpg"
     }
 ]
