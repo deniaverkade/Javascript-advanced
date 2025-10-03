@@ -56,3 +56,7 @@ img {
     width: 80px;
     height: 80px;
 }
+
+.listbox {
+    display:inline-grid;
+}
