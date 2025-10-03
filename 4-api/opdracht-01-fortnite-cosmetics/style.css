@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: Fortnite;
+    src: url(Burbank\ Big\ Condensed\ Black.otf);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(46, 154, 255);
+    font-family: Fortnite;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+table{
+  border: 0px solid rgb(42, 18, 180);
+   padding: 5px;
+   background-color: rgb(44, 130, 211);
+   color:white;
+}
+
+th {
+   border: 0px solid rgb(42, 18, 180);
+    padding: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:white;
+    
+}
+
+#listHeader {
+background-color: rgb(46, 154, 255);
+}
+td {
+    border: 0px solid rgb(42, 18, 180);
+   padding: 5px;
+   background-color: rgb(44, 130, 211);
+   color:white;
+   width: 150px;
+}
+
+#cosid {
+    padding-right: 60px;
+    width:120px;
+}
+
+#idheader {
+padding-right: 180px;
+}
+
+#descheader {
+    padding-right: 60px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
